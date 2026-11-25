@@ -1,0 +1,35 @@
+************* Module registration
+registration.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+registration.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+registration.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+registration.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+registration.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+registration.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module invoice
+invoice.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+invoice.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+invoice.py:5:4: C0116: Missing function or method docstring (missing-function-docstring)
+invoice.py:4:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+invoice.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+invoice.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+invoice.py:9:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+invoice.py:13:0: C0115: Missing class docstring (missing-class-docstring)
+invoice.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+invoice.py:13:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+invoice.py:18:0: C0115: Missing class docstring (missing-class-docstring)
+invoice.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+invoice.py:18:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+invoice.py:34:0: C0115: Missing class docstring (missing-class-docstring)
+invoice.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+invoice.py:36:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+invoice.py:34:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+invoice.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module legacy_invoice
+legacy_invoice.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+legacy_invoice.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+legacy_invoice.py:14:8: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+legacy_invoice.py:14:8: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 5.56/10 (previous run: 5.83/10, -0.28)
+

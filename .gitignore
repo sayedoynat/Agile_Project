@@ -1,0 +1,18 @@
+# Python virtual environments
+lab7- code/my_env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing and coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
