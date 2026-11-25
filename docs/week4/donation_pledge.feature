@@ -18,6 +18,8 @@ Feature: Select Items and Quantities
 
   Scenario: Reject a zero donation quantity
     Given a donation drive has an item "Food Boxes"
+    And the target quantity is 10
+    And the pledged quantity is 6
     When the donor selects "Food Boxes" with quantity 0
     Then the item selection should be rejected
     And the system should display an error message

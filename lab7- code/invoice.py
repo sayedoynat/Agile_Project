@@ -1,20 +1,22 @@
 FEE_PER_HOUR = 1200
-
+SCHOLARSHIP_RATE = 0.5
+SIBLING_RATE = 0.75
 
 class RegularPolicy:
     def fee(self, hours):
         return hours * FEE_PER_HOUR
 
-
 class ScholarshipPolicy:
     def fee(self, hours):
-        return hours * FEE_PER_HOUR * 0.5
+        return hours * FEE_PER_HOUR * SCHOLARSHIP_RATE
+
+
 
 class SiblingPolicy:
     def fee(self, hours):
-        return hours * FEE_PER_HOUR * 0.75
+        return hours * FEE_PER_HOUR * SIBLING_RATE
 
-
+    
 class InternationalPolicy:
     RATE = 2000
     SERVICE_FEE = 5000
